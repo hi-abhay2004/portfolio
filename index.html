@@ -92,6 +92,16 @@
             border-radius:100px ;display: inline-block;
             
         }
+        #bio #btn1,#btn2{
+            font-size: 20px;
+            background-color: #15F5BA;
+            color: #000000;
+            padding: 10px 25px;
+            font-weight: 900;
+            margin: 10px 10px;
+            margin-left: 0%;
+            cursor: pointer;
+        }
     </style>
     <div id="page1">
         <div id="nav">
@@ -104,6 +114,9 @@
         <div id="bio">
             <h1>I'm <span class="element" style="color: #15F5BA;"></span></h1>
             <p style="padding: 30px 0px; font-size: 18px;">This is my Official Portfolio Website to showCase my  all  works  <br> related to Web development</p>
+        
+            <button id="btn1">Hire Me</button>
+            <button id="btn2">Download CV</button>
         </div>
         <div id="svgp">
             <svg id="sw-js-blob-svg" viewBox="0 0 100 100"
@@ -125,15 +138,15 @@
 
         <!--?xml version="1.0" standalone="no"?-->
     </div>
-    <script>
-        var typed = new Typed('.element', {
-            strings: ["Abhay J Sharma", "Web Developer"],
-            typeSpeed: 50,
-            backSpeed: 50,
-            loop: true
-        });
-
-    </script>
+            <script>
+                var typed = new Typed('.element', {
+                    strings: ["Abhay J Sharma", "Web Developer"],
+                    typeSpeed: 50,
+                    backSpeed: 50,
+                    loop: true
+                });
+        
+            </script>
 
 </body>
 
