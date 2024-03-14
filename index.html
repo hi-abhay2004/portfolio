@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+            font-family: "Kode Mono", monospace;
+
+        }
+
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            /* cursor: none; */
+            background-color: #000000;
+        }
+
+        #page1 {
+            width: 100%;
+            height: 100vh;
+        }
+
+        #nav {
+            width: 70%;
+            height: 100px;
+            border-bottom: 5px dotted #15F5BA;
+            margin: auto;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+
+        #nav h2 {
+            color: #fff;
+
+        }
+
+        #nav h2:hover {
+           
+            padding: 12px;
+            border-bottom: 2px solid white;
+           
+        }
+
+        #bio {
+            width: 80%;
+            height: 100vh;
+            margin: auto;
+            /* border: 1px solid white; */
+            position: relative;
+
+        }
+
+        #page1 h1 {
+            font-size: 50px;
+            margin-top: 12%;
+            display: inline-block;
+
+
+        }
+
+        #svgp {
+            width: 50%;
+            right: 0%;
+            position: absolute;
+            top: 10%;
+        }
+        
+        #svgp img {
+            height: 85%;
+            width: 75%;
+            right: 20%;
+            position: absolute;
+            top: 7%;
+            border-radius:100px ;display: inline-block;
+            
+        }
+    </style>
+    <div id="page1">
+        <div id="nav">
+            <h2>Home</h2>
+            <h2>About Me</h2>
+            <h2>Projects</h2>
+            <h2>Contact me</h2>
+        </div>
+
+        <div id="bio">
+            <h1>I'm <span class="element" style="color: #15F5BA;"></span></h1>
+            <p style="padding: 30px 0px; font-size: 18px;">This is my Official Portfolio Website to showCase my  all  works  <br> related to Web development</p>
+        </div>
+        <div id="svgp">
+            <svg id="sw-js-blob-svg" viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                    <stop id="stop1" stop-color="rgba(21, 245, 186, 1)" offset="0%"></stop>
+                    <stop id="stop2" stop-color="rgba(21, 245, 186, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path fill="url(#sw-gradient)"
+                d="M19.4,-24.8C24.4,-18.9,27.3,-12.1,29.8,-4.3C32.3,3.5,34.5,12.3,32.2,20.8C29.9,29.2,23.2,37.3,15.1,39.4C7,41.5,-2.6,37.5,-12.3,33.9C-22,30.3,-31.8,27.2,-37.8,20.1C-43.9,13.1,-46.3,2.3,-42.9,-5.9C-39.6,-14.1,-30.3,-19.7,-22.2,-25C-14.1,-30.4,-7,-35.6,0.1,-35.7C7.2,-35.8,14.4,-30.7,19.4,-24.8Z"
+                width="50%" height="50%" transform="translate(50 50)" stroke-width="0"
+                ></path>
+               
+            </svg>
+            <img src="./1704732378507-PhotoRoom.png-PhotoRoom.png" alt="">
+        </div>
+
+        <!--?xml version="1.0" standalone="no"?-->
+    </div>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["Abhay J Sharma", "Web Developer"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+
+    </script>
+
+</body>
+
+</html>
