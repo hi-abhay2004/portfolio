@@ -1,0 +1,214 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #fff;
+            font-family: "Kode Mono", monospace;
+
+        }
+
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            /* cursor: none; */
+            background-color: #000000;
+        }
+
+        #page1 {
+            width: 100%;
+            height: 100vh;
+            display: block;
+        }
+
+        #nav {
+            width: 70%;
+            height: 100px;
+            border-bottom: 4px dotted #15F5BA;
+            margin-left: 15%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            
+            gap: 100px;
+            /* position: fixed;
+             z-index: 99; */
+
+        }
+        #bg-img{
+            width: 500px;
+            position: absolute;
+            top: 65%;
+            left: 7%;
+            display: none;
+        }
+
+
+        #nav a {
+            text-decoration: none;
+        }
+
+        #nav h2 {
+            color: #fff;
+
+        }
+
+        #nav h2:hover {
+
+            padding: 12px;
+            border-bottom: 2px solid white;
+
+        }
+
+        #bio {
+            width: 80%;
+            height: 100vh;
+            margin: auto;
+            /* border: 1px solid white; */
+            position: relative;
+
+        }
+
+        #page1 h1 {
+            font-size: 50px;
+            margin-top: 20%;
+            display: inline-block;
+
+
+        }
+
+        #svgp {
+            width: 50%;
+            right: -5%;
+            position: absolute;
+            top: 10%;
+        }
+
+        #svgp img {
+            height: 85%;
+            width: 75%;
+            right: 20%;
+            position: absolute;
+            top: 7%;
+            border-radius: 100px;
+            display: inline-block;
+
+
+        }
+
+        #bio #btn1,
+        #btn2 {
+            font-size: 20px;
+            background-color: #FBA834;
+            color: #000000;
+            padding: 10px 25px;
+            font-weight: 900;
+            margin: 10px 10px;
+            margin-left: 0%;
+            cursor: pointer;
+        }
+
+        #page2 {
+            width: 80%;
+            height: 100vh;
+            border: 1px solid white;
+            margin: auto;
+            position: relative;
+            top: 20%;
+        }
+
+        #page2 h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        #page2 #abt-img img {
+            width: 55vh;
+            position: absolute;
+            top: 15%;
+            
+           
+
+        }
+        @media only screen and (max-width:600px){
+            *{
+                margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+            }
+            #page1{
+                width: 600px;
+                height: 100vh;
+                position: relative;
+            }
+            #nav {
+            width: 100%;
+            height: 60px;
+            border: none;
+            font-size: 10px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 10px;
+            background-color: #000000;
+            left: -15%;
+            border-bottom: 1px solid #Fff;
+            position: fixed;
+             z-index: 99;
+
+
+        }
+        #bio{
+            top: 10%;
+        }
+       
+        #bio h1{
+            font-size: 42px;
+        }
+        #svgp{
+            display: none;
+            background-image: url(./1704732378507-PhotoRoom.png-PhotoRoom.png);
+        }
+       #bg-img{
+        display: block;
+       }
+       #page2{
+        width: 98%;
+        position: relative;
+        top: 70%;
+
+       }
+       #page2 h1{
+        float: left;
+        padding-left: 10%;
+       }
+       #page2 #details{
+        font-size: 16px;
+        display: block;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+       }
+       #details p,span{
+        color: #FBA834;
+       }
+       #details p{
+        line-height: 30px;
+       }
+
+       #details ul{
+        position: relative;
+        top: 50%;
+        position: sticky;
+       }
+       #details ul li{
+        list-style: none;
+        padding: 10px;
+        font-weight: 900;
+       }
+        }
+    
